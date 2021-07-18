@@ -2,15 +2,14 @@ package br.com.williamdsk.businesscard.ui
 
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
-import br.com.williamdsk.businesscard.databinding.ActivityMainBinding
+import br.com.williamdsk.businesscard.databinding.ActivityAddBusinessCardBinding
 
-class MainActivity : AppCompatActivity() {
+class AddBusinessCardActivity : AppCompatActivity() {
 
-    private val binding by lazy{ActivityMainBinding.inflate(layoutInflater)}
+    private val binding by lazy{ ActivityAddBusinessCardBinding.inflate(layoutInflater)}
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(binding.root)
     }
-
 }

@@ -1,4 +1,11 @@
 <resources>
     <string name="app_name">BusinessCard</string>
     <string name="cartao_de_visita">Cartão de Visita</string>
+    <string name="label_description_new_card">Novo Cartão</string>
+    <string name="hint_nome">Nome</string>
+    <string name="hint_telefone">Telefone</string>
+    <string name="hint_email">Email</string>
+    <string name="hint_empresa">Empresa</string>
+    <string name="hint_cor">Cor</string>
+    <string name="lbl_confirmar">Confirmar</string>
 </resources>
